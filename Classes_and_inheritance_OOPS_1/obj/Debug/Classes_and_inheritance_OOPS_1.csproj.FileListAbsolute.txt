@@ -1,0 +1,8 @@
+C:\Users\Harthaj\Documents\sait-sem2\oops_2\assignment 1\Classes_and_inheritance_OOPS_1\Classes_and_inheritance_OOPS_1\obj\Debug\Classes_and_inheritance_OOPS_1.csproj.AssemblyReference.cache
+C:\Users\Harthaj\Documents\sait-sem2\oops_2\assignment 1\Classes_and_inheritance_OOPS_1\Classes_and_inheritance_OOPS_1\obj\Debug\Classes_and_inheritance_OOPS_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Harthaj\Documents\sait-sem2\oops_2\assignment 1\Classes_and_inheritance_OOPS_1\Classes_and_inheritance_OOPS_1\obj\Debug\Classes_and_inheritance_OOPS_1.csproj.CoreCompileInputs.cache
+C:\Users\Harthaj\Documents\sait-sem2\oops_2\assignment 1\Classes_and_inheritance_OOPS_1\Classes_and_inheritance_OOPS_1\bin\Debug\Classes_and_inheritance_OOPS_1.exe.config
+C:\Users\Harthaj\Documents\sait-sem2\oops_2\assignment 1\Classes_and_inheritance_OOPS_1\Classes_and_inheritance_OOPS_1\bin\Debug\Classes_and_inheritance_OOPS_1.exe
+C:\Users\Harthaj\Documents\sait-sem2\oops_2\assignment 1\Classes_and_inheritance_OOPS_1\Classes_and_inheritance_OOPS_1\bin\Debug\Classes_and_inheritance_OOPS_1.pdb
+C:\Users\Harthaj\Documents\sait-sem2\oops_2\assignment 1\Classes_and_inheritance_OOPS_1\Classes_and_inheritance_OOPS_1\obj\Debug\Classes_and_inheritance_OOPS_1.exe
+C:\Users\Harthaj\Documents\sait-sem2\oops_2\assignment 1\Classes_and_inheritance_OOPS_1\Classes_and_inheritance_OOPS_1\obj\Debug\Classes_and_inheritance_OOPS_1.pdb
