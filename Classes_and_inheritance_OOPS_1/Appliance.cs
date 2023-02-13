@@ -29,10 +29,6 @@ namespace Classes_and_inheritance_OOPS_1
             Price = price;
         }
 
-        public Appliance()
-        {
-        }
-
         //getters and setters
         public long ItemNumber { get => itemNumber; set => itemNumber = value; }
         public string Brand { get => brand; set => brand = value; }
