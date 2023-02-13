@@ -46,7 +46,7 @@ namespace Classes_and_inheritance_OOPS_1
             }
             string[] args =
             {
-                base.Formatforfile(),numofDoors,height.ToString(),width.ToString()
+                base.Formatforfile(),numofDoors.ToString(),height.ToString(),width.ToString(),
             };
             return string.Join(";", args);
         }

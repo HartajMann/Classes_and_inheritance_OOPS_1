@@ -48,7 +48,7 @@ namespace Classes_and_inheritance_OOPS_1
                 }
                 else if(no==5)
                 {
-                    d.saveToFile("..\\..\\Res\\appliances.txt", d.appliances);
+                    d.saveToFile("..\\..\\Res\\appliances.txt");
                 }
                 else
                 {
@@ -68,7 +68,7 @@ namespace Classes_and_inheritance_OOPS_1
                 switch(firstchar)
                 {
                     case '1':
-                        Refrigerator refrigerator = new Refrigerator(long.Parse(field[0]), field[1], Convert.ToInt32(field[2]), Convert.ToDouble(field[3]), field[4], Convert.ToDouble(field[5]), field[6], Convert.ToInt32(field[7]), Convert.ToInt32(field[8]));
+                        Refrigerator refrigerator = new Refrigerator(long.Parse(field[0]), field[1], int.Parse(field[2]), Convert.ToDouble(field[3]), field[4], Convert.ToDouble(field[5]), field[6], int.Parse(field[7]), int.Parse(field[8]));
                         appliances.Add(refrigerator);
                         break;
                     case '2':
@@ -252,13 +252,15 @@ namespace Classes_and_inheritance_OOPS_1
             }
         }
         // saves all the changes made after using the application to the list
-        private void saveToFile(string fName,List<Appliance>appliances)
+        private void saveToFile(string fName)
         {
-            StreamWriter saveTxt=new StreamWriter(fName);
-            foreach(Appliance appliance in appliances)
+            using (TextWriter savetxt = new StreamWriter(fName))
             {
-                string format = appliance.Formatforfile();
-                saveTxt.Write(format);
+                foreach(Appliance appliance in appliances)
+                {
+                    string format = appliance.Formatforfile();
+                    savetxt.WriteLine(format + ";");
+                }
             }
         }
     }
